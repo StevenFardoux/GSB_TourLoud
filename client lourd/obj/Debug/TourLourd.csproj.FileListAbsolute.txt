@@ -1,0 +1,24 @@
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\client lourd.exe.config
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\client lourd.exe
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\client lourd.pdb
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\ClassGSB.dll
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\Newtonsoft.Json.dll
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\ClassGSB.pdb
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\TourLourd.csproj.AssemblyReference.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\TourLourd.csproj.SuggestedBindingRedirects.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.connexion.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.modifVisite.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.modifMedecin.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.modifVisiteur.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.pageAutre.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.pageVisiteurs.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.actionVisite.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.ajouteVisite.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client_lourd.Properties.Resources.resources
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\TourLourd.csproj.GenerateResource.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\TourLourd.csproj.CoreCompileInputs.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\TourLourd.csproj.CopyComplete
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client lourd.exe
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\obj\Debug\client lourd.pdb
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\Newtonsoft.Json.xml
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\client lourd\bin\Debug\ClassGSB.xml

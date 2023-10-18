@@ -1,0 +1,10 @@
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\bin\Debug\ClassGSB.dll
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\bin\Debug\ClassGSB.pdb
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\bin\Debug\Newtonsoft.Json.dll
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\obj\Debug\ClassGSB.csproj.AssemblyReference.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\obj\Debug\ClassGSB.csproj.CoreCompileInputs.cache
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\obj\Debug\ClassGSB.csproj.CopyComplete
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\obj\Debug\ClassGSB.dll
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\obj\Debug\ClassGSB.pdb
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\bin\Debug\Newtonsoft.Json.xml
+D:\Bureau\Cours\Quesque\B2\SIO2\C#\gsb_tourLourd\ClassGSB\bin\Debug\ClassGSB.xml

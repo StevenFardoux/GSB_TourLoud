@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassGSB</name>
+    </assembly>
+    <members>
+        <member name="M:ClassGSB.passerelle.setAll">
+            <summary>
+            Initialise toutes les listes.
+            </summary>
+        </member>
+        <member name="M:ClassGSB.passerelle.setListVisiteur">
+            <summary>
+            Initialise la liste visiteur.
+            </summary>
+        </member>
+        <member name="M:ClassGSB.passerelle.getLesVisiteurs">
+            <summary>
+            Renvoi la liste des visiteurs.
+            </summary>
+            <returns>List<Visiteur></Visiteur></returns>
+        </member>
+        <member name="M:ClassGSB.passerelle.getVisiteurByID(System.Int32)">
+            <summary>
+            Renvoi un visiteur par ID.
+            </summary>
+            <returns>Visiteur</returns>
+        </member>
+        <member name="M:ClassGSB.passerelle.addVisteur(ClassGSB.Visiteur)">
+            <summary>
+            Ajoute un visiteur à la liste.
+            </summary>
+            <param name="visiteur"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.modifVisiteur(ClassGSB.Visiteur,System.String,System.String)">
+            <summary>
+            Modifie les information du visiteur.
+            </summary>
+            <param name="visiteur"></param>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.delVisiteur(ClassGSB.Visiteur)">
+            <summary>
+            Supprime le visiteur de la liste.
+            </summary>
+            <param name="visiteur"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.setListMedecin">
+            <summary>
+            Initialise la liste Medecins.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ClassGSB.passerelle.getLesMedecins" -->
+        <member name="M:ClassGSB.passerelle.getMedecinByID(System.Int32)">
+            <summary>
+            Renvoi un medecin par ID.
+            </summary>
+            <returns>Medecin</returns>
+        </member>
+        <member name="M:ClassGSB.passerelle.addMedecin(ClassGSB.Medecin)">
+            <summary>
+            Ajoute un Medecin à la liste.
+            </summary>
+            <param name="medecin"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.modifMedecin(ClassGSB.Medecin,System.String,System.String,System.String,System.String)">
+            <summary>
+            Modifie les information du medecin.
+            </summary>
+            <param name="medecin"></param>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+            <param name="mail"></param>
+            <param name="pwd"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.delMedecin(ClassGSB.Medecin)">
+            <summary>
+            Supprime le medecin de la liste.
+            </summary>
+            <param name="medecin"></param>
+        </member>
+        <member name="M:ClassGSB.passerelle.setListVisite">
+            <summary>
+            Initialise la liste des médecins
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ClassGSB.passerelle.getLesVisites" -->
+        <member name="M:ClassGSB.passerelle.addVisite(ClassGSB.Visite)">
+            <summary>
+            Ajoute une visite à la liste
+            </summary>
+            <param name="visite"> Visite </param>
+        </member>
+        <member name="M:ClassGSB.passerelle.modVisite(ClassGSB.Visite)">
+            <summary>
+            Modifie une visite
+            </summary>
+            <param name="visite">Visite</param>
+        </member>
+        <member name="M:ClassGSB.passerelle.delVisite(ClassGSB.Visite)">
+            <summary>
+            Supprime une visite de la liste
+            </summary>
+            <param name="visite"> Visite </param>
+        </member>
+        <member name="M:ClassGSB.Visite.#ctor">
+            <summary>
+            Constructeur de la classe Visite
+            </summary>
+        </member>
+        <member name="M:ClassGSB.Visite.#ctor(ClassGSB.Medecin,ClassGSB.Visiteur,System.String,System.DateTime)">
+            <summary>
+            Constructeur de la classe Visite
+            </summary>
+            <param name="medecin">Le médecin</param>
+            <param name="visiteur">Le visiteur</param>
+            <param name="adresse">L'adresse</param>
+            <param name="dateVisite">La date de la visite</param>
+        </member>
+        <member name="M:ClassGSB.Visite.#ctor(System.Int32,ClassGSB.Medecin,ClassGSB.Visiteur,System.String,System.DateTime)">
+            <summary>
+            Constructeur de la classe Visite
+            </summary>
+            <param name="id">L'identifiant de la visite</param>
+            <param name="medecin">Le médecin</param>
+            <param name="visiteur">Le visiteur</param>
+            <param name="adresse">L'adresse</param>
+            <param name="dateVisite">La date de la visite</param>
+        </member>
+        <member name="M:ClassGSB.Visite.getId">
+            <summary>
+            Accesseur de l'identifiant de la visite
+            </summary>
+            <returns>L'identifiant de la visite</returns>
+        </member>
+        <member name="M:ClassGSB.Visite.getMedecin">
+            <summary>
+            Accesseur du médecin
+            </summary>
+            <returns>Le médecin</returns>
+        </member>
+        <member name="M:ClassGSB.Visite.getVisiteur">
+            <summary>
+            Accesseur du visiteur
+            </summary>
+            <returns>Le visiteur</returns>
+        </member>
+        <member name="M:ClassGSB.Visite.getAdresse">
+            <summary>
+            Accesseur de l'adresse
+            </summary>
+            <returns>L'adresse</returns>
+        </member>
+        <member name="M:ClassGSB.Visite.getDateVisite">
+            <summary>
+            Accesseur de la date de la visite
+            </summary>
+            <returns>La date de la visite</returns>
+        </member>
+        <member name="M:ClassGSB.Visite.setId(System.Int32)">
+            <summary>
+            Mutateur de l'identifiant de la visite
+            </summary>
+            <param name="id">L'identifiant de la visite</param>
+        </member>
+        <member name="M:ClassGSB.Visite.setMedecin(ClassGSB.Medecin)">
+            <summary>
+            Mutateur du médecin
+            </summary>
+            <param name="medecin">Le médecin</param>
+        </member>
+        <member name="M:ClassGSB.Visite.setVisiteur(ClassGSB.Visiteur)">
+            <summary>
+            Mutateur du visiteur
+            </summary>
+            <param name="visiteur">Le visiteur</param>
+        </member>
+        <member name="M:ClassGSB.Visite.setAdresse(System.String)">
+            <summary>
+            Mutateur de l'adresse
+            </summary>
+            <param name="adresse">L'adresse</param>
+        </member>
+        <member name="M:ClassGSB.Visite.setDateVisite(System.DateTime)">
+            <summary>
+            Mutateur de la date de la visite
+            </summary>
+            <param name="dateVisite">La date de la visite</param>
+        </member>
+        <member name="M:ClassGSB.Visiteur.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Constructeur de la classe Visite.
+            </summary>
+            <param name="id"></param>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+        </member>
+        <member name="M:ClassGSB.Visiteur.#ctor(System.Int32,System.String,System.String,System.Collections.Generic.List{ClassGSB.Visite})">
+            <summary>
+            Constructeur de la classe Visite.
+            </summary>
+            <param name="id"></param>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+            <param name="listVisite"></param>
+        </member>
+        <member name="M:ClassGSB.Visiteur.getId">
+            <summary>
+            Accessseur de l'identifiant du Visiteur.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassGSB.Visiteur.getListVisite">
+            <summary>
+            Accesseur de la liste des visites du Visiteur
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassGSB.Visiteur.setListVisite(System.Collections.Generic.List{ClassGSB.Visite})">
+            <summary>
+            Modificateur de la liste des visites du Visiteur
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:ClassGSB.Visiteur.addVisite(ClassGSB.Visite)">
+            <summary>
+            Ajouter une visite à la liste des visites du Visiteur
+            </summary>
+            <param name="visite"></param>
+        </member>
+        <member name="M:ClassGSB.Visiteur.ToString">
+            <summary>
+            ToString de la classe Visiteur
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

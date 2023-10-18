@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D1B4880-B079-4E20-9D7F-899F2C6C2693}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>client_lourd</RootNamespace>
+    <AssemblyName>client lourd</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connexion.Designer.cs">
+      <DependentUpon>connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modifMedecin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modifMedecin.Designer.cs">
+      <DependentUpon>modifMedecin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modifVisite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modifVisite.Designer.cs">
+      <DependentUpon>modifVisite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modifVisiteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modifVisiteur.Designer.cs">
+      <DependentUpon>modifVisiteur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pageAutre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageAutre.Designer.cs">
+      <DependentUpon>pageAutre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pageVisiteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pageVisiteurs.Designer.cs">
+      <DependentUpon>pageVisiteurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actionVisite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actionVisite.Designer.cs">
+      <DependentUpon>actionVisite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajouteVisite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ajouteVisite.Designer.cs">
+      <DependentUpon>ajouteVisite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="connexion.resx">
+      <DependentUpon>connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modifVisite.resx">
+      <DependentUpon>modifVisite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modifMedecin.resx">
+      <DependentUpon>modifMedecin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modifVisiteur.resx">
+      <DependentUpon>modifVisiteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageAutre.resx">
+      <DependentUpon>pageAutre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pageVisiteurs.resx">
+      <DependentUpon>pageVisiteurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actionVisite.resx">
+      <DependentUpon>actionVisite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajouteVisite.resx">
+      <DependentUpon>ajouteVisite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassGSB\ClassGSB.csproj">
+      <Project>{e69a7412-f5c2-4556-a554-b74d31ca6819}</Project>
+      <Name>ClassGSB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
